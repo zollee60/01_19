@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formok</title>
+</head>
+<body>
+    <div style="margin: 0 auto; width: 960px; text-align: center">
+        <form action="" method="GET">
+            <div>
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+            </div>
+
+            <div>
+                <label for="pw">Password</label>
+                <input type="password" name="pw" id="pw">
+            </div>
+
+            <div>
+                <label for="birthyear">Születési dátum:</label>
+                <!--Legrdülő menü-->
+                <select name="birthyear" id="birthyear">
+                    <option value="1999">1999</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                </select>
+            </div>
+
+            <div>
+                <!--Rádió gombok-->
+                <input type="radio" name="sex" id="male" value="male">
+                <label for="male">Férfi</label>
+                <input type="radio" name="sex" id="female" value="female">
+                <label for="female">Nő</label>
+            </div>
+
+            <h3>Teendők:</h3>
+            <div>
+                <!--Checkboxok-->
+                <input type="checkbox" name="todos" id="todo1" value="mosogat">
+                <label for="todo1">Mosogass el!</label>
+
+                <input type="checkbox" name="todos" id="todo2" value="vasarol">
+                <label for="todo2">Vásárolj be!</label>
+
+                <input type="checkbox" name="todos" id="todo3" value="takarit">
+                <label for="todo3">Takaríts ki!</label>
+            
+            </div>
+            <!--Submit/beadás-->
+            <input type="submit" value="KÜLDÉS">
+        </form>
+    </div>
+    
+</body>
+</html>
